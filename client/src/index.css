@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Start of header css */
+.header {
+  margin-top: 20px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.more-header {
+  display: flex;
+  width: 100%;
+  height: 80px;
+}
+
+.header-rest-name {
+  color: inherit;
+  text-decoration: inherit;
+  font: RobotoRegular;
+  font-size: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header-navbar {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.header-navbar {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 55px;
+}
+
+.header-bottom {
+  flex: 1;
+}
+
+ .navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  color: inherit;
+  text-decoration: inherit;
+  text-transform: uppercase;
+  outline: none;
+}
+/* end of header css */
+
+/* start of tables css*/
+.grid {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+div > div {
+  padding: 10px;
+}
+
+.num-table {
+  margin: 50px;
+  border: green solid 3px;
+  color: green;
+  text-align: center;
+}
+
+.num-table:hover {
+  background-color: green;
+  color: white;
+}
+/* end of tables css */
+
+/* menu css start */
+.input-container {
+  border: black solid 3px;
+}
+
+.menu-box {
+  border: black solid 3px;
+}
+/* end menu */
+
+/* start table input css */
+.setup-container {
+  display: flex;
+  gap: 30px;
+  margin: 0 auto;
+  border: 2px solid black;
+  flex-wrap: wrap;
+}
+
+.table-box {
+  background-color: lightgray;
+  padding: 75px;
+}
+
+.full-width {
+  flex-basis: 100%;
+}
+/* end table setup */
+
+
